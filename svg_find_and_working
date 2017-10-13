@@ -1,0 +1,7 @@
+일반적으로 svg 파일을 열려고 하면 
+
+org.xml.sax.SAXParseException
+
+오류 메시지를 출력하고 되지 않을 때에는
+
+헥사에디터(hexedit)로 열어 파일의 처음 세개의 바이트를 삭제하면 된다.(EF BB BF)
